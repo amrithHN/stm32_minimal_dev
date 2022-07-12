@@ -391,8 +391,8 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
-      "vrml": ""
+      "step": "stm32_minimal_dev.step",
+      "vrml": "stm32_minimal_dev.wrl"
     },
     "page_layout_descr_file": ""
   },
