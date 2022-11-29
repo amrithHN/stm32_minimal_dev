@@ -1494,7 +1494,6 @@
     )
   )
 
-
   (junction (at 200.66 128.27) (diameter 0) (color 0 0 0 0)
     (uuid 1d479437-ffea-4c9e-9d38-467e825261e5)
   )
@@ -1597,12 +1596,11 @@
 
   (no_connect (at 35.56 76.2) (uuid 5c149d29-68a3-4215-9976-50dee0d39bf6))
   (no_connect (at 35.56 73.66) (uuid 6b2bb349-bfe2-46f5-a030-4e1c484bdc38))
-  (no_connect (at 260.35 119.38) (uuid 6d4fa293-47c4-4283-a4d7-cd11c80135d8))
   (no_connect (at 260.35 116.84) (uuid 6d4fa293-47c4-4283-a4d7-cd11c80135d9))
   (no_connect (at 35.56 71.12) (uuid 9a297ef3-17d1-4506-9d90-357e8416dfee))
   (no_connect (at 36.83 133.35) (uuid be94d3fd-44a9-4c79-b22a-f27a1f1825da))
   (no_connect (at 35.56 78.74) (uuid f82d5ac3-6a81-4929-8eae-a42cf4bb1118))
-  (no_connect (at 35.56 81.28) (uuid f82d5ac3-6a81-4929-8eae-a42cf4bb1118))
+  (no_connect (at 35.56 81.28) (uuid f82d5ac3-6a81-4929-8eae-a42cf4bb1119))
 
   (wire (pts (xy 140.97 81.28) (xy 172.72 81.28))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -2965,6 +2963,22 @@
     (pin "2" (uuid d43f275b-f61f-4f0b-b591-5b94392deee9))
   )
 
+  (symbol (lib_id "power:GND") (at 260.35 119.38 0) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid 62ff518b-de58-45da-85d3-d0cddcde2e8c)
+    (property "Reference" "#PWR0105" (id 0) (at 260.35 125.73 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (id 1) (at 260.35 124.46 0))
+    (property "Footprint" "" (id 2) (at 260.35 119.38 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 260.35 119.38 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid cb2d3470-a113-46f6-b113-fd5f0a24a097))
+  )
+
   (symbol (lib_id "Mechanical:MountingHole") (at 34.29 156.21 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 6d054e80-a951-4369-983a-ddcad9eae18c)
@@ -3832,6 +3846,9 @@
     )
     (path "/46e9c8e5-4097-40e8-9208-0bc7803eeb5b"
       (reference "#PWR0104") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/62ff518b-de58-45da-85d3-d0cddcde2e8c"
+      (reference "#PWR0105") (unit 1) (value "GND") (footprint "")
     )
     (path "/f62969ba-6653-4089-b38e-8c0ef2fba9df"
       (reference "C1") (unit 1) (value "22u") (footprint "Capacitor_SMD:C_0805_2012Metric")

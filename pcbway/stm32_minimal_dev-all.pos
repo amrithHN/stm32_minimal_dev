@@ -1,0 +1,34 @@
+### Module positions - created on Wed Jul 13 21:20:30 2022 ###
+### Printed by Pcbnew version (6.0.6)
+## Unit = mm, Angle = deg.
+## Side : All
+# Ref     Val              Package                               PosX       PosY       Rot  Side
+C1        22u              C_0805_2012Metric                 165.9636   -92.1766    0.0000  top
+C2        22uF             C_0805_2012Metric                 171.9834   -97.1550   90.0000  top
+C3        10p              C_0402_1005Metric                 151.2062   -84.3534  -90.0000  top
+C4        10p              C_0402_1005Metric                 151.2062   -86.5378  -90.0000  top
+C5        10uF             C_0603_1608Metric                 157.4292   -78.1558    0.0000  top
+C6        100nF            C_0402_1005Metric                 162.8140   -91.6940  180.0000  top
+C7        100nF            C_0402_1005Metric                 154.0510   -82.7024   90.0000  top
+C8        100n             C_0402_1005Metric                 150.9776   -88.9508  -90.0000  top
+C9        100nF            C_0402_1005Metric                 165.9382   -83.4390  -90.0000  top
+C10       100nF            C_0402_1005Metric                 157.3784   -79.8068    0.0000  top
+C11       10n              C_0402_1005Metric                 151.4602   -92.1258  180.0000  top
+C12       1u               C_0402_1005Metric                 151.4676   -93.5482  180.0000  top
+C13       1u               C_0402_1005Metric                 152.4676   -95.3182  180.0000  top
+D1        LED              LED_0603_1608Metric               169.6974   -92.1766  180.0000  top
+FB1       120R             L_0603_1608Metric                 153.4676   -92.8557  -90.0000  top
+J1        Conn_01x12_Male  PinHeader_1x16_P2.54mm_Vertical   132.1562   -73.3552   90.0000  top
+J2        Conn_01x12_Male  PinHeader_1x16_P2.54mm_Vertical   131.8514  -104.2670   90.0000  top
+J3        Conn_01x08_Male  PinHeader_1x08_P2.54mm_Vertical   126.5682   -97.9528  180.0000  top
+J4        USB_B_Micro      WE_629105136821                   174.6250   -84.5820   90.0000  top
+R1        1k5              R_0402_1005Metric                 169.6974   -90.7542  180.0000  top
+R2        2k2              R_0402_1005Metric                 157.7848  -100.4316  180.0000  top
+R3        2k2              R_0402_1005Metric                 159.9184  -100.4316    0.0000  top
+R4        10k              R_0402_1005Metric                 175.0314   -90.4748  180.0000  top
+R5        1K5              R_0402_1005Metric                 169.7482   -84.0994  -90.0000  top
+SW1       SW_SPDT          SW_SPDT_PCM12                     175.5140   -95.6310   90.0000  top
+U1        AMS1117-3.3      SOT-223-3_TabPin2                 167.2844   -97.8408  -90.0000  top
+U2        STM32F103C8T6    LQFP-48_7x7mm_P0.5mm              159.8676   -85.9282    0.0000  top
+Y1        16MHz            Crystal_SMD_3225-4Pin_3.2x2.5mm   148.6925   -85.1662   90.0000  top
+## End
